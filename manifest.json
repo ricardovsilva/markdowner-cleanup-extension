@@ -1,0 +1,17 @@
+{
+  "name": "Markdowner Resume Cleanup",
+  "version": "0.1",
+  "description": "Clean up result from markdowner to print as resume",
+  "manifest_version": 2,
+  "browser_action": {
+    "default_title": "Cleanup hipster markdowner"
+  },
+  "background": {
+    "scripts": ["background.js"],
+    "persistent": false
+  },
+  "permissions": [
+    "tabs",
+    "https://markdowner.github.io/*"
+  ]
+}
