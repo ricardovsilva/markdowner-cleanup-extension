@@ -4,7 +4,7 @@ Apply some style to content generated on [Markdowner](https://markdowner.github.
 ## How to install
 
 1. Clone this repository  
-> git clone github.com/ricardovsilva/markdowner-cleanup-extension  
+> git clone https://github.com/ricardovsilva/markdowner-cleanup-extension  
 2. Open chrome then navigate to chrome://extensions  
 3. Enable developer mode  
 ![](http://i.imgur.com/fPZXt3i.png)  
