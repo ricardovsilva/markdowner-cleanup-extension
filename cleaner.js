@@ -22,6 +22,19 @@ const socialNetworks = document.querySelector("#social-networks");
 const footer = document.querySelector("footer");
 const hr = (document.querySelector("hr").style.visibility = "hidden");
 
-socialNetworks && (socialNetworks.style.marginTop = "30px");
-footer && (footer.style.visibility = "hidden");
-hr && (hr.style.visibility = "hidden");
+socialNetworks && socialNetworks.style && (socialNetworks.style.marginTop = "30px");
+footer && footer.style && (footer.style.visibility = "hidden");
+hr && hr.style && (hr.style.visibility = "hidden");
+
+
+// this block is to avoid chrome to print links twice
+var style = document.createElement('style');
+style.type = 'text/css';
+style.innerHTML = `
+@media print {
+  a[href]:after {
+    content: none !important;
+  }
+}
+`;
+document.getElementsByTagName('head')[0].appendChild(style);

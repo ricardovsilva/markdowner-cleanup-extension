@@ -1,6 +1,6 @@
 {
   "name": "Markdowner Resume Cleanup",
-  "version": "0.1",
+  "version": "0.2",
   "description": "Clean up result from markdowner to print as resume",
   "manifest_version": 2,
   "browser_action": {
